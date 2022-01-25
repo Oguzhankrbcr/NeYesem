@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Register</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="main.css">
+
+</head>
+
+<body>
+
+
+
+    <div class="banner jumbotron text-white jumbotron-image shadow">
+
+
+        <h1>Kayıt Ol</h1>
+        <p>"Ne Yesem" Uygulaması Yeni Üye</p>
+    </div>
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <a class="navbar-brand" href="ana.html">Anasayfa</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="yemek1.html">YEMEK SEÇ!</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="project.html">Ne Yesem Projesi</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="odev.html">Üye Girişi</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="register.html">Yeni Kayıt</a>
+                </li>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </nav>
+
+    <form>
+        <div class="text-center container">
+            <h2>Kayıt Ol</h2>
+            <p>(Önceki yemek seçim istatistikleriniz için kayıt olmanızı tavsiye ederiz)</p>
+
+            <div class="row mb-3">
+                <div class="col-sm-3"> <label for="USERNAME">Yeni Kullanıcı Adı:</label><br>
+
+                </div>
+                <div class="col-sm-7"> <input type="text" class="form-control" placeholder="Kullanıcı Adını Oluştur" name="USERNAME">
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col-sm-3"> <label for="password">Yeni Şifre:</label>
+
+                </div>
+                <div class="col-sm-7"> <input type="password" class="form-control" placeholder="Minimum 8 karakter" name="PASSWORD">
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col-sm-3"> <label for="E-MAIL ADRESS">E-Mail Adresi:</label>
+
+
+                </div>
+                <div class="col-sm-7">
+                    <input type="email" class="form-control" placeholder="E-mail Adresiniz" name="E-MAİL">
+                    <input type="email" class="form-control" placeholder="Tekrar E-mail Adresiniz" name="E-MAİL">
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-sm-3">
+                    <label for="cinsiyet">Cinsiyet</label>
+
+                </div>
+                <div class="col-sm-7">
+                    <select name="cinsiyet" id="cinsiyet" class="form-control">
+                        <option value="erkek">Erkek</option>
+                        <option value="kadin">Kadın</option>
+                        <option value="dontsay">Belirtmek İstemiyorum</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col-sm-3">
+                </div>
+                <div class="col-sm-7">
+                    <button type="submit" class="btn btn-primary btn-block">Oluştur</button>
+                    <a href="odev.html" class="text-decoration-none h6">Zaten Bir Hesabınız Mevcut mu?</a>
+                </div>
+            </div>
+        </div>
+
+    </form>
+</body>
+
+</html>

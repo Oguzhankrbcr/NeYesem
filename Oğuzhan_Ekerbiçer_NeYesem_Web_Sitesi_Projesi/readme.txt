@@ -1,0 +1,1 @@
+-Fotoğrafları dosyanın içine çıkardıktan sonra inceleyebilir veya istediğiniz gibi oynama yapabilirsiniz.

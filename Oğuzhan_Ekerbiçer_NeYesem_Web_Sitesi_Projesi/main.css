@@ -1,0 +1,16 @@
+body {
+    background-image: url('wallpaper.png');
+    background-repeat: no-repeat;
+}
+
+.banner {
+    background-image: url(neyesemm.jpg);
+}
+
+img {
+    border: 10px solid rgb(25, 100, 238);
+}
+
+.jumbotron {
+    margin-bottom: 0px !important;
+}
